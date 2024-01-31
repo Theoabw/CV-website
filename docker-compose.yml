@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  react-app:
+    build: .
+    networks:
+      - web-network
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.react-app.rule=Host(`www.tabw.dev`) || Host(`tabw.dev`)"
+      - "traefik.http.routers.react-app.entrypoints=web"
+
+networks:
+  web-network:
+    external: true
