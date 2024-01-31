@@ -2,51 +2,41 @@ const Experience = () => {
     return (
         <div className="container">
             <div className="paragraph-container">
+                <h1>Experience</h1>
+                <div className="divider"/>
+                <h3>Web Developer & Administrator</h3>
+                <h2>Datateknologerna vid Åbo Akademi rf</h2>
+                <h4>2024 - Present</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus sollicitudin tempus.
-                    Integer sit amet turpis lorem. Nam dui magna, volutpat quis vulputate in, gravida ac neque. Nullam
-                    vitae felis sit amet arcu cursus pellentesque sed fringilla tortor. Pellentesque egestas sed eros et
-                    porttitor. In nec congue odio. Praesent arcu mi, laoreet ut diam sed, auctor ultricies nibh.
-                    Phasellus tortor ipsum, mattis nec ex non, bibendum dictum nibh.
+                    In my current role at Datateknologerna vid Åbo Akademi rf, I am responsible for maintaining,
+                    developing, and enhancing our student association's websites. My work involves using Django, a
+                    high-level Python web framework, to ensure our websites are not only functional but also
+                    user-friendly. I manage GitHub pull requests, streamline server operations, and implement feature
+                    upgrades. This role allows me to apply my technical skills in a real-world setting, ensuring I
+                    continually grow as a developer.
                 </p>
+                <div className="divider"/>
+                <h3>Sales Associate</h3>
+                <h2>S-market Tupuri</h2>
+                <h4>June - August 2021</h4>
                 <p>
-                    Integer auctor ligula ut enim tempus, eget varius orci gravida. Praesent aliquam, leo ac gravida
-                    eleifend, orci arcu dictum lorem, sodales tempus eros metus sed odio. Phasellus eros quam, facilisis
-                    sed gravida nec, vestibulum vitae mi. Sed mauris dolor, consectetur ac neque sed, lobortis tincidunt
-                    risus. Quisque id tempor ligula. Nulla aliquet maximus mauris nec bibendum. Mauris congue
-                    consectetur dui eget porttitor.
+                    As a Sales Associate at S-market Tupuri, I handled various customer service responsibilities. This
+                    role involved direct sales, responding to product inquiries, and contributing to the day-to-day
+                    operations of the store. Working in this fast-paced environment, I developed strong communication
+                    skills and learned the importance of efficient customer service.
                 </p>
+                <div className="divider"/>
+                <h3>Landscaping & Maintenance</h3>
+                <h2>Eriksberg Manor, Muurla Salo</h2>
+                <h4>Summer 2019 & Summer 2020</h4>
                 <p>
-                    Phasellus vel enim scelerisque turpis ultrices laoreet nec nec diam. Quisque nunc ipsum, porta sit
-                    amet rhoncus lacinia, dignissim at tellus. Morbi ipsum sapien, aliquet eget ipsum vel, accumsan
-                    hendrerit quam. Aliquam et ipsum ante. Curabitur et fermentum ipsum. Phasellus sit amet hendrerit
-                    mauris. Suspendisse magna odio, tristique efficitur sagittis non, venenatis eu nunc. Aenean ornare
-                    tempor nibh, eu sagittis sem tempus sit amet. Phasellus et vehicula lectus. Aliquam erat volutpat.
-                    Cras eget semper leo. Aenean vitae euismod erat, vitae elementum lacus. Donec luctus, elit et
-                    sollicitudin gravida, arcu mi lobortis nunc, nec tincidunt nisl libero ultricies massa. Curabitur
-                    tortor sem, faucibus non enim vel, iaculis tempor nunc. Vivamus ultricies ipsum sit amet mauris
-                    convallis blandit. Proin rutrum felis vitae luctus faucibus.
-                </p>
-                <p>
-                    Duis ullamcorper nibh quis magna sagittis fringilla. Curabitur eu fermentum lacus, eget posuere
-                    sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                    Nulla facilisi. Nam a risus viverra, volutpat sapien eu, efficitur neque. Etiam cursus facilisis
-                    dolor id eleifend. Nunc leo mi, ultricies dictum aliquet at, dictum vestibulum ipsum. Class aptent
-                    taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut a efficitur nulla.
-                    Praesent ac elementum metus. Suspendisse potenti. In luctus neque ac ullamcorper venenatis. Morbi
-                    pretium eget ante vel consectetur. Pellentesque habitant morbi tristique senectus et netus et
-                    malesuada fames ac turpis egestas. Proin eleifend nibh convallis eleifend tincidunt.
-                </p>
-                <p>
-                    Proin ultricies mauris quis augue ultricies, a pretium est posuere. Vestibulum imperdiet viverra est
-                    sit amet consectetur. Ut eget arcu leo. Etiam blandit pharetra erat et suscipit. Vestibulum mattis
-                    sem at tempor posuere. Maecenas condimentum orci sit amet magna accumsan, sit amet elementum ante
-                    rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                    egestas. Suspendisse egestas venenatis elementum.
+                    At Eriksberg Manor, I was involved in various maintenance tasks, including gardening and general
+                    upkeep. This role required a hands-on approach and attention to detail. My responsibilities included
+                    maintaining the aesthetic and functional aspects of the manor, which taught me the value of hard
+                    work and the importance of maintaining high standards in all tasks.
                 </p>
             </div>
         </div>
-
     );
 };
 
