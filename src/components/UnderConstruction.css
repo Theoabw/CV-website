@@ -1,0 +1,17 @@
+.under-construction {
+    background: repeating-linear-gradient(
+            45deg,
+            #606060,
+            #606060 10px,
+            #ffffff 10px,
+            #ffffff 20px
+    );
+    color: #ffffff; /* White color for the text */
+    font-size: 2em; /* Adjust the font size as needed */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /* Black outline for the text */
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 20px auto;
+    width: 90%;
+}
