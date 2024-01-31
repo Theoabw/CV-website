@@ -1,8 +1,8 @@
+import CV from '../assets/CV.pdf';
 const CVPDF = () => {
-    const resumeURL = process.env.PUBLIC_URL + '/Theo Wilenius CV 2024 English.pdf';
     return (
             <iframe
-                src={resumeURL}
+                src={CV}
                 style={{
                     width: '100%',
                     height: '100%',

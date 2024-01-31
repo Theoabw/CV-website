@@ -1,13 +1,13 @@
-import React, {useEffect, useState} from 'react';
+import {React, useEffect, useState} from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Cookies from 'js-cookie';
 import Navbar from './components/Navbar';
-import Homepage from './components/Homepage';
-import About from './components/About';
-import CVPDF from './components/CV-PDF';
-import Skills from './components/Skills';
-import Experience from './components/Experience';
-import Portfolio from './components/Portfolio';
+import Homepage from './components/Homepage.jsx';
+import About from './components/About.jsx';
+import CVPDF from './components/CV-PDF.jsx';
+import Skills from './components/Skills.jsx';
+import Experience from './components/Experience.jsx';
+import Portfolio from './components/Portfolio.jsx';
 import './App.css';
 
 const App = () => {
