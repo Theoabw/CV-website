@@ -3,6 +3,9 @@ version: '3.8'
 services:
   react-app:
     build: .
+    volumes:
+      - .:/app
+      - /app/node_modules
     networks:
       - web-network
     labels:
