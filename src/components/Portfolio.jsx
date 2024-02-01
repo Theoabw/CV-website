@@ -1,3 +1,5 @@
+import UnderConstruction from "./UnderConstruction.jsx";
+
 const Portfolio = () => {
     return (
         <div className="container">
@@ -7,6 +9,7 @@ const Portfolio = () => {
                     It is a work in progress and will be updated as I complete more projects.
                 </p>
             </div>
+            <UnderConstruction />
         </div>
     );
 };

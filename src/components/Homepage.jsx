@@ -1,6 +1,5 @@
 import profilePic from '../assets/Theo-4313.jpg';
 import './Homepage.css';
-import UnderConstruction from './UnderConstruction.jsx';
 
 function Homepage() {
     return (
@@ -36,7 +35,6 @@ function Homepage() {
                     </p>
                 </div>
             </div>
-            <UnderConstruction/>
         </div>
     );
 }
