@@ -1,8 +1,9 @@
-# React + Vite
+# Theo's CV website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my CV website, built with React and Typescript. It's currently just a work in progress, but I'll be adding more to it soon.
 
-Currently, two official plugins are available:
+## TODO
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [x] Content
+- [x] Locale support
+- [x] Better layout

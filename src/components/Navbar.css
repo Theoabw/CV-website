@@ -34,3 +34,22 @@
 .nav-button {
     margin-left: 12px !important;
 }
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .nav-item a {
+        font-size: 12px; /* Adjust this value as needed */
+    }
+}

@@ -71,6 +71,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode }) => {
                     </NavLink>
                 </li>
             </ul>
+            <div>
             <IconButton edge="end" color="inherit" className="nav-button" onClick={() => window.open('https://github.com/Theoabw', '_blank')}>
                 <GitHubIcon />
             </IconButton>
@@ -80,6 +81,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode }) => {
             <IconButton edge="end" color="inherit" className="nav-button" onClick={() => setDarkMode(!darkMode)}>
                 {darkMode ? <Brightness7Icon /> : <Brightness4Icon />}
             </IconButton>
+            </div>
         </nav>
     );
 }
