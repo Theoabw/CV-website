@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 import IconButton from '@mui/material/IconButton';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './Navbar.css';
 
 interface NavbarProps {
@@ -69,7 +71,13 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode }) => {
                     </NavLink>
                 </li>
             </ul>
-            <IconButton edge="end" color="inherit" onClick={() => setDarkMode(!darkMode)}>
+            <IconButton edge="end" color="inherit" className="nav-button" onClick={() => window.open('https://github.com/Theoabw', '_blank')}>
+                <GitHubIcon />
+            </IconButton>
+            <IconButton edge="end" color="inherit" className="nav-button" onClick={() => window.open('https://linkedin.com/in/tabw', '_blank')}>
+                <LinkedInIcon />
+            </IconButton>
+            <IconButton edge="end" color="inherit" className="nav-button" onClick={() => setDarkMode(!darkMode)}>
                 {darkMode ? <Brightness7Icon /> : <Brightness4Icon />}
             </IconButton>
         </nav>

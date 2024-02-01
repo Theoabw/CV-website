@@ -30,3 +30,7 @@
     background-color: #555;
     color: #fff;
 }
+
+.nav-button {
+    margin-left: 12px !important;
+}
