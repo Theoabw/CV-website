@@ -23,16 +23,16 @@ const App = () => {
 
     return (
         <Router>
-            <Navbar darkMode={darkMode} setDarkMode={setDarkMode}/>
-            <Routes>
-                <Route path="/" element={<Homepage />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/CV" element={<CVPDF />} />
-                <Route path="/skills" element={<Skills />} />
-                <Route path="/experience" element={<Experience />} />
-                <Route path="/portfolio" element={<Portfolio />} />
-            </Routes>
-        </Router>
+        <Navbar darkMode={darkMode} setDarkMode={setDarkMode}/>
+    <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/CV" element={<CVPDF />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+    </Routes>
+</Router>
     );
 };
 
