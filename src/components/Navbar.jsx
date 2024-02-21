@@ -5,17 +5,13 @@ import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import PropTypes from 'prop-types';
 import './Navbar.css';
 
-interface NavbarProps {
-    darkMode: boolean;
-    setDarkMode: (value: boolean) => void;
-}
-
-const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode }) => {
+const Navbar = ({ darkMode, setDarkMode }) => {
     const [activeLink, setActiveLink] = React.useState('/');
 
-    const handleSetActive = (link: React.SetStateAction<string>) => {
+    const handleSetActive = (link) => {
         setActiveLink(link);
     };
 
@@ -72,18 +68,23 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode }) => {
                 </li>
             </ul>
             <div>
-            <IconButton edge="end" color="inherit" className="nav-button" onClick={() => window.open('https://github.com/Theoabw', '_blank')}>
-                <GitHubIcon />
-            </IconButton>
-            <IconButton edge="end" color="inherit" className="nav-button" onClick={() => window.open('https://linkedin.com/in/tabw', '_blank')}>
-                <LinkedInIcon />
-            </IconButton>
-            <IconButton edge="end" color="inherit" className="nav-button" onClick={() => setDarkMode(!darkMode)}>
-                {darkMode ? <Brightness7Icon /> : <Brightness4Icon />}
-            </IconButton>
+                <IconButton edge="end" style={{color:"var(--button-color)"}} className="nav-button" onClick={() => window.open('https://github.com/Theoabw', '_blank')}>
+                    <GitHubIcon />
+                </IconButton>
+                <IconButton edge="end" style={{color:"var(--button-color)"}} className="nav-button" onClick={() => window.open('https://linkedin.com/in/tabw', '_blank')}>
+                    <LinkedInIcon />
+                </IconButton>
+                <IconButton edge="end" style={{color:"var(--button-color)"}} className="nav-button" onClick={() => setDarkMode(!darkMode)}>
+                    {darkMode ? <Brightness7Icon /> : <Brightness4Icon />}
+                </IconButton>
             </div>
         </nav>
     );
 }
+
+Navbar.propTypes = {
+    darkMode: PropTypes.bool.isRequired,
+    setDarkMode: PropTypes.func.isRequired,
+};
 
 export default Navbar;

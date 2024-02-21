@@ -1,7 +1,7 @@
-import {React, useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Cookies from 'js-cookie';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar.jsx';
 import Homepage from './components/Homepage.jsx';
 import About from './components/About.jsx';
 import CVPDF from './components/CV-PDF.jsx';
